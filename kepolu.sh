@@ -6,7 +6,7 @@
 read -p "Press Enter For Contitune : "
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-proxy https://github.com/maintebot/maintebot/proxy-templated.py
+wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/maintebot/maintebot/main/proxy-templated.py
 chmod +x /usr/local/bin/edu-proxy
 
 # Installing Service

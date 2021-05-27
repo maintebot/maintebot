@@ -6,7 +6,7 @@
 read -p "Press Enter For Contitune : "
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-proxy https://wildyscript.my.id/Edu/proxy-templated.py
+wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/maintebot/maintebot/main/gasss-edu.py
 chmod +x /usr/local/bin/edu-proxy
 
 # Installing Service

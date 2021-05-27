@@ -62,6 +62,6 @@ systemctl enable edu-proxy-tls
 systemctl restart edu-proxy-tls
 
 clear
-rm -f kepolu.sh
+rm -f gasss.sh
 echo done
 

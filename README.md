@@ -1,5 +1,5 @@
 ### Hi there 👋
-Iseng project gasss
+### BENAR SALAH TETAP NGEGASSS !!!
 
 <!--
 **maintebot/maintebot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

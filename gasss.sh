@@ -1,9 +1,9 @@
 #!/bin/bash
-# Proxy For Edukasi & Imclass
+# GASSS SSH WEBSOCKET
 # ==============================
 
 # Banner / Figlet
-read -p "Press Enter For Contitune : "
+read -p "Press Enter For Contitune : GASSS ENTER "
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/maintebot/maintebot/main/gasss-bedu.py
@@ -12,7 +12,7 @@ chmod +x /usr/local/bin/edu-proxy
 # Installing Service
 cat > /etc/systemd/system/edu-proxy-nontls.service << END 
 [Unit]
-Description=Python Edu Proxy
+Description=Python Proxy NGE-GASSS
 Documentation=https://t.me/nge_gasss
 Documentation=https://t.me/nge_gazzz
 Documentation=https://t.me/maintebot
@@ -24,7 +24,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy 2082
+ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy 1990
 Restart=on-failure
 
 [Install]
@@ -38,7 +38,7 @@ systemctl restart edu-proxy-nontls
 # Installing Service
 cat > /etc/systemd/system/edu-proxy-tls.service << END 
 [Unit]
-Description=Python Edu Proxy
+Description=Python Proxy NGE-GASSS
 Documentation=https://t.me/nge_gasss
 Documentation=https://t.me/nge_gazzz
 Documentation=https://t.me/maintebot
@@ -50,7 +50,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy 2083
+ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy 1995
 Restart=on-failure
 
 [Install]
